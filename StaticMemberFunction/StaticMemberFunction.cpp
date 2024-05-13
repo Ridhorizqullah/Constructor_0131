@@ -21,4 +21,15 @@ public:
 
 long long int mahasiswa::nim = 0;
 
+void mahasiswa::setID()
+{
+	id = ++nim;
+}
+
+void mahasiswa::printALL()
+{
+	cout << "ID = " << id << endl;
+	cout << "nama = " << nama << endl;
+	cout << endl;
+}
 
