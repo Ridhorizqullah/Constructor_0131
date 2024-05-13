@@ -30,3 +30,15 @@ public:
 	}
 };
 
+int main() {
+	Mahasiswa mhs1;
+	Mahasiswa mhs2(20);
+	Mahasiswa mhs3("imron");
+	Mahasiswa mhs4(20, "asek");
+
+	mhs1.cetak();
+	mhs2.cetak();
+	mhs3.cetak();
+	mhs4.cetak();
+	return 0;
+}
