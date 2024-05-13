@@ -22,4 +22,5 @@ int mahasiswa::nim = 10;
 void mahasiswa::setID()					// set id
 {
 	id = ++nim;							//nim bernilai 0 ditambahkan 1 baru diberikan ke ID 
+
 }
